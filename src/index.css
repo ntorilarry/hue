@@ -7,3 +7,13 @@
     font-family: "Roboto Mono", monospace;
   }
 }
+
+.bgg {
+  background: url("./assets//image/bgg.png");
+}
+
+@media only screen and (max-width: 1024px) {
+  .bgg {
+    background: url("./assets//image/bgg2.png");
+  }
+}
