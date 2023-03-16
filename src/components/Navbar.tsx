@@ -57,7 +57,16 @@ function Navbar() {
                           title="Company"
                           className="inline-flex items-center"
                         >
-                          <img src={Logo} alt="" />
+                          <img
+                            className="hidden dark:block"
+                            src={Logo}
+                            alt=""
+                          />
+                          <img
+                            className="block dark:hidden"
+                            src={Logoblack}
+                            alt=""
+                          />
                         </a>
                       </div>
                       <div>
