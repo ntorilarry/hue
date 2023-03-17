@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import BgImg from "../assets/image/bgg.png"
+import BgImg from "../assets/image/bgg.png";
 
 function Home() {
   return (

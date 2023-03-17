@@ -5,9 +5,9 @@ function Hero() {
   return (
     <div>
       <section>
-        <div className="h-[90vh] sm:h-full">
+        <div>
           <div className="container flex flex-col items-center px-4 py-16 mx-auto text-center md:px-10 lg:px-32 text-gray-900">
-            <h1 className="text-5xl font-bold leading-none lg:leading-[84px] sm:text-[64px] xl:max-w-3xl text-gray-900 dark:text-white">
+            <h1 className="text-4xl font-bold leading-none lg:leading-[84px] sm:text-[64px] xl:max-w-3xl text-gray-900 dark:text-white">
               Connecting people through music...
             </h1>
             <p className="mt-6 mb-8 font-normal leading-none lg:leading-[29px] text-base sm:text-lg sm:mb-12 lg:max-w-xl text-gray-900 dark:text-white">
